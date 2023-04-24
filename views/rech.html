@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Recherche d'événements</title>
+	<link rel="stylesheet" href="rech.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="/index">Accueil</a></li>
+
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>Recherche d'événements</h2>
+		<form>
+			<label for="ville">Ville :</label>
+			<input type="text" id="ville" name="ville">
+			<label for="date">Date :</label>
+			<input type="date" id="date" name="date">
+			<label for="categorie">Catégorie :</label>
+			<select id="categorie" name="categorie">
+				<option value="">Toutes les catégories</option>
+				<option value="concert">Concert</option>
+				<option value="spectacle">Spectacle</option>
+				<option value="cinema">Cinéma</option>
+				<option value="exposition">Exposition</option>
+			</select>
+			<button type="submit">Rechercher</button>
+		</form>
+		<div id="search-results"></div>
+	</main>
+
+	<footer>
+		<div class="footer-content">
+		  <div class="footer-section about">
+			<h3 class="logo-text">City Explorer</h3>
+			<div class="contact">
+			  <span><i class="fas fa-phone"></i> &nbsp; (123) 456-7890</span>
+			  <span><i class="fas fa-envelope"></i> &nbsp; info@cityexplorer.com</span>
+			</div>
+			<div class="socials">
+			  <a href="#"><i class="fab fa-facebook"></i></a>
+			  <a href="#"><i class="fab fa-instagram"></i></a>
+			  <a href="#"><i class="fab fa-twitter"></i></a>
+			  <a href="#"><i class="fab fa-youtube"></i></a>
+			</div>
+		  </div>
+	  
+		  <div class="footer-section links">
+			<h3>Liens utiles</h3>
+			<ul>
+			  <li><a href="#">A propos</a></li>
+			  <li><a href="#">Conditions d'utilisation</a></li>
+			  <li><a href="#">Politique de confidentialité</a></li>
+			  <li><a href="#">FAQ</a></li>
+			</ul>
+		  </div>
+	  
+		  <div class="footer-section contact-form">
+			<h3>Nous contacter</h3>
+			<form action="#" method="POST">
+			  <input type="email" name="email" class="text-input contact-input" placeholder="Votre adresse email">
+			  <textarea name="message" class="text-input contact-input" placeholder="Votre message"></textarea>
+			  <button type="submit" class="btn btn-big contact-btn">
+				<i class="fas fa-envelope"></i>
+				Envoyer
+			  </button>
+			</form>
+		  </div>
+		  <div class="footer-bottom">
+			&copy; 2023 City Explorer | Designed by ZEGHAR & BOUCENNA
+		  </div>
+		</div>
+	  </footer>
+	
+</body>
+</html>

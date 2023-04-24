@@ -1,0 +1,322 @@
+/* Styles généraux */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Styles pour la barre de navigation */
+nav {
+  background-color: #1d1d1d;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+
+/* Styles pour le héros */
+.hero {
+  background-color: #f2f2f2;
+  padding: 100px 0;
+  text-align: center;
+  background-image: url(p4.jpg);
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  text-align: left;
+  margin-left: 3%;
+}
+
+.button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.buttonP {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  transform: translateX(-320%);
+}
+.buttonP:hover {
+  color: #f39c12;
+}
+.button:hover {
+  color: #f39c12;
+}
+/*
+.button:hover {
+  background-color: #666;
+}*/
+
+/* Styles pour la section des événements populaires */
+.popular-events {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.popular-events h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+/*.event-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.event {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 40px;
+}
+
+.event img {
+  max-width: 100%;
+}
+
+.event-info {
+  padding: 20px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.event-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.event-info p {
+  margin-bottom: 10px;
+}
+
+.event-info .button {
+  display: block;
+  margin-top: 20px;
+}*/
+.event-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.event {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 40px;
+}
+
+.event img {
+  max-width: 100%;
+  height: 200px; /* Taille des images pour tous les événements */
+  object-fit: cover; /* Pour remplir la div parent avec l'image */
+}
+
+.event-info {
+  padding: 20px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.event-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif; /* Police pour le nom de l'événement */
+}
+
+.event-info p {
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif; /* Police pour la date et l'emplacement */
+  font-size: 1.1rem;
+}
+
+.event-info .button {
+  display: block;
+  margin-top: 20px;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.footer-section.about {
+  width: 40%;
+}
+
+
+.footer-section h2 {
+  /*font-size: 20px;*/
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.footer-section p {
+  margin-bottom: 20px;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.socials {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.socials a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #555;
+  transition: all 0.3s ease;
+}
+
+.socials a:hover {
+  background-color: #111;
+}
+
+.links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 10px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  color: #ccc;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #eee;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-big {
+  padding: 15px 25px;
+  font-size: 15px;
+}
+
+.btn:hover {
+  color: #f39c12;
+}
+
+
+

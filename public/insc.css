@@ -1,0 +1,227 @@
+/* Réinitialisation des styles de base */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corps de la page */
+body {
+font-family: Arial, sans-serif;
+font-size: 16px;
+color: #333;
+}
+
+/* Style de l'en-tête de la page */
+nav {
+background-color: #1d1d1d;
+height: 60px;
+display: flex;
+justify-content:center;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+align-items: center;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+margin: 0 20px;
+}
+
+nav a {
+text-decoration: none;
+color: #fff;
+font-size: 18px;
+font-weight: 500;
+transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+color: #f39c12;
+}
+
+.container2 {
+  margin: 50px auto;
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  }
+  
+  .container2 h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  }
+  
+  label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  font-size: 16px;
+  font-weight: 500;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px #f39c12;
+  }
+  
+  button[type="submit"] {
+    display: inline-block;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+  color: #f39c12;
+  }
+   
+ 
+footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    width: 30%;
+    margin-bottom: 40px;
+  }
+  
+  .footer-section.about {
+    width: 40%;
+  }
+  
+  .footer-section h2 {
+    /*font-size: 20px;*/
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .footer-section p {
+    margin-bottom: 20px;
+  }
+  
+  .contact {
+    margin-bottom: 20px;
+  }
+  
+  .contact span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .socials {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .socials a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #555;
+    transition: all 0.3s ease;
+  }
+  
+  .socials a:hover {
+    background-color: #111;
+  }
+  
+  .links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .links li {
+    margin-bottom: 10px;
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .links a:hover {
+    color: #ccc;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #eee;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-big {
+    padding: 15px 25px;
+    font-size: 15px;
+  }
+  
+  .btn:hover {
+    color: #f39c12;
+  }

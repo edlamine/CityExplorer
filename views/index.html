@@ -1,0 +1,49 @@
+{{> header}}
+  
+  <main>
+    {{#authenticated}}
+    <h2 style="text-align: center; position: relative; ">{{nom}}</h2>
+    <div style="text-align: right; position: relative; bottom: 40px;"><a href="/logout"><button>Se déconnecter</button></a></div>
+    {{/authenticated}}
+
+    <section class="hero">
+      <h1>City Explorer</h1>
+      <p>Recherchez des événements et des activités dans une ville</p>
+      <a href="/rech" class="buttonP">Rechercher</a>
+    </section>
+
+    <section class="popular-events">
+      <h2>Événements populaires à venir</h2>
+      <div class="event-list">
+        <div class="event">
+          <img src="p1.jpg" src ="" alt="Événement">
+          <div class="event-info">
+            <h3 id="event-name">Grande Vente de Plantes Aix-en-Provence</h3>
+            <p id="event-time"> ven. 21 avr. 2023 09:00 - dim. 23 avr. 2023 17:00 CEST</p>
+            <p id="event-location">Les Allées Provençales 75 Avenue Giuseppe Verdi 13100 Aix-En-Provence</p>
+            <a  href="https://www.eventbrite.com/e/inscription-grande-vente-de-plantes-aix-en-provence-603616351757?aff=ebdshpsearchautocomplete&keep_tld=1" target="_blank" class="button">En savoir plus</a>
+          </div>
+        </div>
+        <div class="event">
+          <img src="p2.jpg" src ="" alt="Événement">
+          <div class="event-info">
+            <h3 id="event-name">Le festival Ubuntu</h3>
+            <p id="event-time">sam. 22 avr. 2023 12:00 - 23:59 CEST</p>
+            <p id="event-location">Le Point Fort d'Aubervilliers 174 Avenue Jean Jaurès 93300 Aubervilliers</p>
+            <a  href="https://www.eventbrite.com/e/billets-le-festival-ubuntu-559658021207?aff=ebdshpsearchautocomplete&keep_tld=1" target="_blank" class="button">En savoir plus</a>
+          </div>
+        </div>
+        <div class="event">
+          <img src="p3.jpg" src ="" alt="Événement">
+          <div class="event-info">
+            <h3 id="event-name">Randonnée découverte</h3>
+            <p id="event-time">Début le sam. 29 avr. 2023 10:00 CEST</p>
+            <p id="event-location">Étang de But Parking ENS étang de But 01370 Saint-Étienne-du-Bois</p>
+            <a  href="https://www.eventbrite.com/e/billets-randonnee-decouverte-513989696017?aff=ebdshpsearchautocomplete&keep_tld=1" target="_blank" class="button">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <link rel="stylesheet" href="style.css">
+  {{> footer}}
