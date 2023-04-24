@@ -4,11 +4,11 @@ City Explorer is a web application that helps users find events and activities i
 
 Features:
 
-    View popular upcoming events on the homepage
-    Search for events by city, date, and category
-    View detailed information about each event, including date, time, address, description, and user comments
-    Register and login to save favorite events and post comments
-    Report inappropriate events or comments
+- View popular upcoming events on the homepage
+- Search for events by city, date, and category
+- View detailed information about each event, including date, time, address, description, and user comments
+- Register and login to save favorite events and post comments
+- Report inappropriate events or comments
 
 Conception:
 
